@@ -126,7 +126,7 @@
       "type": "prompt"
     }
   ],
-  "console_title_template": "{{ .Folder }} {{.UserName}}@{{.HostName}} {{.Shell}} in {{.PWD}} - IP:{{ .IP }}",
+  "console_title_template": "{{ .Path }} {{.UserName}}@{{.HostName}} {{.Shell}} in {{.PWD}} - IP:{{ .IP }}",
   "transient_prompt": {
     "background": "transparent",
     "foreground": "#FEF5ED",
