@@ -164,7 +164,7 @@
       "type": "prompt"
     }
   ],
-  "console_title_template": "{{ .Shell }} - {{ .Folder }}",
+  "console_title_template": "{{.UserName}}@{{.HostName}} {{.Shell}} in {{.PWD}} - IP:{{ .IP }}",
   "final_space": true,
   "version": 2
 }
